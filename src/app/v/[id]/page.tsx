@@ -35,7 +35,6 @@ export default function Page() {
         // const existingSecrets = await fetchVaultSecrets(vaultId)
         // setEnvVars(existingSecrets || [{ key: '', value: '' }])
         const variables = await getVaultSecretsPublic(vaultId)
-
         setMyEnvVars(variables)
 
         const response = await fetch(`/api/log-view?vaultId=${vaultId}`);
