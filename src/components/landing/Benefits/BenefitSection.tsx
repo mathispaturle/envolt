@@ -30,21 +30,19 @@ const containerVariants: Variants = {
     }
 };
 
-export const childVariants = {
-    offscreen: {
-        opacity: 0,
-        x: -50,
-    },
+
+export const childVariants: Variants = {
+    offscreen: { opacity: 0, x: -50 },
     onscreen: {
         opacity: 1,
         x: 0,
         transition: {
-            type: "spring",
-            bounce: 0.2,
-            duration: 1,
-        }
+        type: "spring", // Now TS understands it's valid
+        bounce: 0.4,
+        duration: 0.8,
     },
-};
+    },
+}
 
 const BenefitSection: React.FC<Props> = ({ benefit, imageAtRight }: Props) => {
     const { title, description, imageSrc, bullets } = benefit;
