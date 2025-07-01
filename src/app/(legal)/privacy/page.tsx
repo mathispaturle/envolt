@@ -15,7 +15,6 @@ export default function PrivacyPolicy() {
 
         <h2 className="font-semibold pt-6">1. Information We Collect</h2>
         <ul>
-          <li><strong>Account Data:</strong> Email address and name (if provided).</li>
           <li><strong>Usage Data:</strong> Page visits, interactions, and general usage patterns via Google Analytics.</li>
           <li><strong>Billing Information:</strong> Handled securely via Stripe, including payment method and billing address.</li>
           <li><strong>Authentication & Storage:</strong> Managed through Firebase (auth and Firestore).</li>
@@ -43,7 +42,7 @@ export default function PrivacyPolicy() {
         <p className="pt-2">We may update this policy. We’ll notify you of material changes via email or on our site.</p>
 
         <h2 className="font-semibold pt-6">7. Contact</h2>
-        <p className="pt-2">Questions? Email us at <a href="mailto:privacy@envolt.app">privacy@envolt.app</a>.</p>
+        <p className="pt-2">Questions? Email us at <a href="mailto:privacy@envolt.org">privacy@envolt.org</a>.</p>
       </main>
       <Footer />
     </>

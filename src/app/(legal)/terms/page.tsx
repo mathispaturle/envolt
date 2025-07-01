@@ -103,7 +103,7 @@ export default function TermsOfService() {
       <h2 className="font-semibold  pt-6">13. Contact</h2>
       <p className="pt-2">
         If you have any questions about these Terms, contact us at{" "}
-        <a href="mailto:legal@envolt.app">legal@envolt.app</a>.
+          <a href="mailto:legal@envolt.org">legal@envolt.org</a>.
       </p>
     </main>
     <Footer />

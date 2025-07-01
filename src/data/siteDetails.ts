@@ -1,6 +1,6 @@
 export const siteDetails = {
   siteName: 'Envolt',
-  siteUrl: 'https://envolt.app/',
+  siteUrl: 'https://envolt.org/',
   metadata: {
     title: 'Envolt - Securely Share Your Environment Variables',
     description:

@@ -40,7 +40,7 @@ export default function SecurityOverview() {
 
         <h2 className="font-semibold pt-6">6. Reporting Vulnerabilities</h2>
         <p className="pt-2">
-          Found a bug or security issue? Please contact <a href="mailto:security@envolt.app">security@envolt.app</a>. We reward responsible disclosures.
+          Found a bug or security issue? Please contact <a href="mailto:security@envolt.org">security@envolt.org</a>. We reward responsible disclosures.
         </p>
       </main>
       <Footer />

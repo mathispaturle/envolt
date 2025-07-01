@@ -29,7 +29,7 @@ export default function CookiePolicy() {
         </p>
 
         <h2 className="font-semibold pt-6">4. Contact</h2>
-        <p className="pt-2">Questions? Email us at <a href="mailto:privacy@envolt.app">privacy@envolt.app</a>.</p>
+        <p className="pt-2">Questions? Email us at <a href="mailto:privacy@envolt.org">privacy@envolt.org</a>.</p>
       </main>
       <Footer />
     </>

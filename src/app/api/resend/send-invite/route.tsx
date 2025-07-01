@@ -21,7 +21,7 @@ export async function POST(req: Request) {
     const inviteLink = `${process.env.NEXT_PUBLIC_APP_URL }/invite?teamId=${teamId}&token=${inviteToken}&email=${email}&type=new`;
 
     const { data, error } = await resend.emails.send({
-      // from: 'Envolt <invite@envolt.app>',
+      // from: 'Envolt <invite@envolt.org>',
       from: 'Acme <onboarding@resend.dev>',
       to: [email],
       subject: "You've been invited to join a team on Envolt",
