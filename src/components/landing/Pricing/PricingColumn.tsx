@@ -22,7 +22,7 @@ const PricingColumn: React.FC<Props> = ({ tier, highlight, cta, type, available 
     const handleClick = async () => {
 
         if (type == "login") {
-            router.push("/auth")
+            router.push("/auth?type=signup")
         } else if (type == "contact") {
             router.push("/contact")
         } else {

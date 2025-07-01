@@ -28,7 +28,7 @@ const Hero: React.FC = () => {
                 </h1>
                 <p className="mt-4 text-foreground max-w-lg mx-auto">{heroDetails.subheading}</p>
                 <div className="mt-6 flex flex-col sm:flex-row items-center sm:gap-4 w-fit mx-auto">
-                    <Link href="#cta" className="text-white bg-primary hover:bg-primary/90 px-8 py-3 rounded-full font-semibold transition-colors">
+                    <Link href="/auth?type=signup" className="text-white bg-primary hover:bg-primary/90 px-8 py-3 rounded-full font-semibold transition-colors">
                         Get started for free
                     </Link>
                 </div>

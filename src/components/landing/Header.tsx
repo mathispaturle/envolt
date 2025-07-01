@@ -52,8 +52,8 @@ const Header: React.FC = () => {
                             </li>
                         ))}
                         <li>
-                            <Link href="/vaults" className="text-white bg-primary hover:bg-primary/90 px-8 py-2 rounded-full font-semibold transition-colors">
-                               Login
+                            <Link href="/auth?type=signup" className="text-white bg-primary hover:bg-primary/90 px-5 py-3 rounded-full font-semibold transition-colors">
+                                Get started for free
                             </Link>
                         </li>
                     </ul>
