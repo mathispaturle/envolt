@@ -27,8 +27,8 @@ export const footerDetails: {
       url: '/security',
     },
   ],
-  email: 'support@envolt.io',
-  telephone: '+1 (555) 123-4567',
+  email: 'support@envolt.org',
+  telephone: '',
   socials: {
     twitter: 'https://twitter.com/envoltapp',
     facebook: 'https://facebook.com/envoltapp',
