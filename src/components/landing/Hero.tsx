@@ -31,6 +31,7 @@ const Hero: React.FC = () => {
                     <Link href="/auth?type=signup" className="text-white bg-primary hover:bg-primary/90 px-8 py-3 rounded-full font-semibold transition-colors">
                         Get started for free
                     </Link>
+                    <a href="https://www.producthunt.com/products/envolt?embed=true&utm_source=badge-featured&utm_medium=badge&utm_source=badge-envolt" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=986684&theme=light&t=1751442146706" alt="Envolt - Secure&#0032;&#0046;env&#0032;sharing&#0032;for&#0032;dev&#0032;teams | Product Hunt" style={{ width: "200px", height: "20" }} width="250" height="20" /></a>
                 </div>
                 <div className='mt-6 text-sm text-muted-foreground relative min-h-[40vh] overflow-hidden rounded-t-2xl border border-neutral-200'>
                     <Image
